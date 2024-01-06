@@ -15,6 +15,7 @@ function Product({ product }) {
                 </a>
                 <Card.Text as="div">
                     <div className='my-3'>
+                        {product.description}
                         {product.rating} from {product.numReviews} reviews
                     </div>
                 </Card.Text>
@@ -23,7 +24,7 @@ function Product({ product }) {
                     ${product.price}
                 </Card.Text>
             </Card.Body>
-        </Card>
+        </Card >
     )
 }
 
