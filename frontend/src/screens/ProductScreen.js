@@ -19,7 +19,7 @@ function ProductScreen() {
 
         fetchProduct()
 
-    }, [])
+    }, [params.id])
 
     return (
         <div>
