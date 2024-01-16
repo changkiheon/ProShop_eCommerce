@@ -24,3 +24,6 @@ yarn-error.log*
 
 frontend/node_modules/
 venv/
+backend/base/__pycache__
+backend/backend/__pycache__
+backend/base/migrations/__pycache__
